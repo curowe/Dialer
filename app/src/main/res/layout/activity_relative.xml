@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bt_center"
+        android:layout_toLeftOf="@+id/bt_center"
+        android:text="左边" />
+
+    <Button
+        android:id="@+id/bt_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中间" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_center"
+        android:layout_alignLeft="@id/bt_center"
+        android:text="上面" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/bt_center"
+        android:layout_toRightOf="@id/bt_center"
+        android:text="右边" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bt_center"
+        android:layout_below="@id/bt_center"
+        android:text="下面" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="左上角"
+        android:layout_toLeftOf="@id/bt_center"
+        android:layout_above="@id/bt_center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="右上角"
+        android:layout_toRightOf="@id/bt_center"
+        android:layout_above="@id/bt_center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="左下角"
+        android:layout_toLeftOf="@id/bt_center"
+        android:layout_below="@id/bt_center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="右下角"
+        android:layout_toRightOf="@id/bt_center"
+        android:layout_below="@id/bt_center"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
